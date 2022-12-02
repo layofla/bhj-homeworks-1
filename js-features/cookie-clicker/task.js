@@ -10,5 +10,4 @@ cookie.onclick = function () {
  cookieClick.textContent = currentClicks + 1;
  cookieSpeedClick.textContent = (((Date.now() - Time) / 1000) / (currentClicks - previousClicks)).toFixed(2);
  previousClicks = currentClicks;
-
 };
