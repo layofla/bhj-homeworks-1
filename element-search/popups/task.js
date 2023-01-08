@@ -4,8 +4,8 @@ modal.classList.add('modal_active');
 
 
 const modalClose = Array.from(document.querySelectorAll('.modal__close'));
-modalClose.forEach((elem) => {
-  elem.addEventListener('click', () => {
+modalClose.forEach((e) => {
+  e.addEventListener('click', () => {
     modal.classList.remove('modal_active');
     modalSuccess.classList.remove('modal_active');
   });
