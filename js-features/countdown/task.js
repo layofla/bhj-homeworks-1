@@ -4,6 +4,7 @@ const countTime  = function(){
            output.textContent --;
        } else if(output.textContent = '0'){
            alert("Вы победили в конкурсе!");
+           clearInterval(timerId);
        }
    }
    
