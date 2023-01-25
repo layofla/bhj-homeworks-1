@@ -8,6 +8,6 @@ cookie.onclick = function () {
  cookie.classList.contains('clicker__cookie') ? cookie.className = 'new__clicker__cookie' : cookie.className = 'clicker__cookie';
  let currentClicks = parseInt(cookieClick.textContent);
  cookieClick.textContent = currentClicks + 1;
- cookieSpeedClick.textContent = (((Date.now() - Time) / 1000) / (currentClicks - previousClicks)).toFixed(2);
+ img.width = ++counter.textContent % 2 ? 250 : 200;
  previousClicks = currentClicks;
 };
